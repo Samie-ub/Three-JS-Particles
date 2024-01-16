@@ -1,4 +1,42 @@
-body{
-    margin: 0;
-    width: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap");
+
+:root {
+  --primary: #ffffff;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Heebo", sans-serif;
+  color: var(--primary);
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -25%);
+}
+
+    
